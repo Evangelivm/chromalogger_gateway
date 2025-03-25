@@ -1,8 +1,13 @@
 export const kafkaConfig = {
   client: {
-    brokers: ['localhost:9092'], // Dirección del broker de Kafka
+    clientId: 'chromalogger-gateway',
+    brokers: ['localhost:29092'],
+    retry: {
+      initialRetryTime: 100,
+      retries: 8,
+    },
   },
   consumer: {
-    groupId: 'api-gateway-group', // Grupo de consumidores
+    groupId: 'api-gateway-group',
   },
 };

@@ -1,12 +1,11 @@
 # ChromaLogger Gateway
 
-Un gateway de registro basado en microservicios utilizando NestJS, Kafka, ChromaDB y gRPC.
+Un gateway de registro basado en microservicios utilizando NestJS, Kafka y gRPC.
 
 ## 🚀 Características
 
 - **API Gateway con gRPC**
 - **Broker de mensajes Apache Kafka**
-- **Integración con la base de datos vectorial ChromaDB**
 - **Arquitectura basada en microservicios**
 - **Contenerización con Docker**
 
@@ -89,14 +88,6 @@ npm run start:prod
   - Gestionar brokers
   - Rastrear grupos de consumidores
 
-## 🧪 Pruebas
-
-Ejecutar las pruebas con:
-
-```sh
-npm run test
-```
-
 ## 📦 Soporte para Docker
 
 Para construir y ejecutar la aplicación completa con Docker:
@@ -129,4 +120,3 @@ Este proyecto está licenciado bajo la **Licencia MIT** - ver el archivo `LICENS
 
 - **Equipo de NestJS**
 - **Apache Kafka**
-- **ChromaDB**
